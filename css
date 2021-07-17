@@ -1,0 +1,329 @@
+
+.bg-img {
+    background-image: url("Scene.png");  
+    height: 90vh;
+    background-position:  50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.textbg p{
+      font-size: 60px;
+      font-weight: 350;
+      color: white !important;
+  }
+@media (max-width: 800px) {
+    .formimg{
+        margin: 0 auto;
+        width: 100%;
+        margin: 0;
+        /* justify-content: center; */
+    }
+    .bg2{
+        background-image: none;
+        margin: 10px;
+    }
+    .form{
+        display: block;
+        width: 100%;
+    }
+        body{
+            overflow-x: hidden !important;
+           }
+        .carimg img{
+           width: 50%;
+           padding-top: 80px;
+        }
+        section{
+            margin-top: 30px;
+        }
+        .leftimg img{
+            width: 100%;
+        }
+        body{
+            overflow-x: hidden !important;
+        }
+        header{
+            width: 100%;
+            /* background-size: cover; */
+        }
+        .colimg img{
+            width: 100%;
+        }
+        .coll{
+            width: 98%;
+            margin: auto;
+            margin-top: 20px;
+        }
+      
+    
+.colimg2{
+    width: 70% !important;
+}
+
+    .textbg p{
+        font-size: 35px !important;
+        font-weight: 300;
+        color: white !important;
+    }
+    /* .bg-img{
+        background-color:  #EE4D47;
+        width: 100%;
+        margin: auto;
+    } */
+    body{
+        overflow-x: hidden !important;
+    }
+    .topnav{
+        overflow-x: hidden !important;
+    }
+    .vl p{
+        width: 80%;
+    }
+    .footercar{
+        display: none;
+    }
+
+  }
+  .selfbtn{
+    position: absolute;
+    right: -114px;
+}
+/* @media (min-width:991) {
+
+    .carimg{
+        padding-top: 20%;
+    }
+} */
+
+ 
+p{
+    color: #402B2B;
+    
+}
+.card-header{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-color: white;
+
+}
+.card{
+    margin: 5px;
+}
+.text-left{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.navbar{
+    width: 90%;
+    /* margin: auto; */
+} 
+.card-body{
+    background-color: #FFF7F5;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+}
+
+.carimg img{
+    width: 30%;
+}
+ .header{
+     color: #EE4D47;
+     font-weight: 700;
+ } 
+
+@media (max-width: 376px){
+    .carimg img{
+        margin-top: 30%;
+    }
+    body{
+     overflow-x: hidden;
+    }
+   }
+   .header image{
+    width: 20%;
+}   
+.nav-btn{
+    background-color: #EE4D47 ;
+    border-color: #EE4D47;
+    width: 137px;
+} 
+
+  /* Position the navbar container inside the image */
+  
+  .logo{
+      margin-left: 10%;
+  }
+  /* The navbar */
+  .topnav {
+   
+    background-color: transparent;
+    /* width:100%; */
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.navbar-collapse{
+    justify-content: space-around;
+}
+.nav-item a {
+        font-weight: 700;
+        font-size: 16px;
+}
+.navbar-brand{
+font-weight: 700;
+font-size: 25px !important;
+padding-right: 15%;
+}
+body{
+    background-color: #FEF8F5;
+}
+section{
+    margin-top: 18%;
+}
+.callback{
+    width: 90%;
+    margin: 11% 0;
+}
+.aligncenter{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.bg-img2 img{
+width: 80%;
+}
+.question{
+    width: 50%;
+}
+.textquestion p{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+.bg{
+    background-image: url("Rectangle9.png");
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* float: left; */
+}
+.colimg2{
+width: 90%;
+}
+.lastdrop{
+    background-color:#ee4c4775;
+}
+
+
+/* external css: flickity.css */
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .gallery-cell:before {
+    display: block;
+    text-align: center;
+    content: counter(gallery-cell);
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }
+  .flickity-enabled.is-draggable{
+    background-color: #FEF8F5 !important;
+}
+
+.carsoulcard{
+    background-color: white !important;
+    border: 0px solid;
+    height: 40%;
+}
+.card{
+    border: 0 solid;
+}
+.card p , h5 , h6 {
+    font-size: small;
+    font-weight: 300;
+    color:  #402B2B;
+}
+.card p{
+    color:  #402B2B;
+   
+    
+}
+.txtformate{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.staffname{
+    display: inline-block;
+}
+.vl {
+    border-left: 6px solid #EE4D47 ;
+    height: 80px;
+  }
+  .vl p{
+    margin-left: 8%;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+.bg2{
+    background-image: url("footerbg.png");
+     height: 80vh;
+     /* width: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* float: left; */
+}
+.bg2 img{
+    width: 30%;
+    margin: bottom 20px; ;
+}
+form{
+    background-color: white;
+    width: 40%;
+    padding: 8%;
+    /* position: absolute; */
+    /* top: 0%; */
+    /* bottom: -98px; */
+}
+
+.form{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.formimg{
+    margin: -65px;
+    width: 60%;
+}
